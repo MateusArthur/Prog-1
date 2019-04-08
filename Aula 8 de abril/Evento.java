@@ -15,6 +15,14 @@ class Evento
 	{
 		return this.id;
 	}
+	public Data2[] getEncontros()
+	{
+		return this.encontros;
+	}
+	public void setEncontros(Data2[] d)
+	{
+		this.encontros =d;
+	}
 	public void setDia(int d, int p)
 	{
 		this.encontros[p].dia = d;
